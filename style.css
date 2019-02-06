@@ -1,0 +1,72 @@
+h1, h2 {
+  font-family: 'Bangers', cursive;
+  color: #1e2a78;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  background-color: #f9ff21;
+}
+
+.btn-blue{
+  color:#ff1f5a;
+  background-color: #1e2a78;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+  text-decoration: none;
+  width: 30px;
+
+}
+
+.btn-blue:hover {
+  color: #ffd615;
+}
+
+.media-links > a{
+  color:#ff1f5a;
+}
+
+.media-links:hover > a{
+  color: #ffd615;
+}
+
+.list-incline{
+  display: inline-block;
+}
+
+ul {
+   padding-left: 0px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img {
+  width: 80px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.width-class {
+  width: 50px;
+}
