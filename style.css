@@ -6,7 +6,9 @@ h1, h2 {
 body {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  background-color: #f9ff21;
+  background-image: url("images/background_image.jpg");
+  background-size: cover;
+  background-color: #cccccc;
 }
 
 .btn-blue{
@@ -41,32 +43,48 @@ ul {
 }
 
 .container {
-  width: 500px;
+  width: 900px;
   margin: 0 auto;
 }
 
 .card-white {
-  background: white;
+  background: rgba(255, 255, 255, 0.8);
   padding: 40px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.7);
   border-radius: 4px;
-  border: 1px solid lightgrey;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   margin: 20px 0px;
   text-align: center;
 }
 
 .img {
-  width: 80px;
+  width: 120px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.7);
 }
 
 .img-circle {
   border-radius: 50%;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .width-class {
   width: 50px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
 }
